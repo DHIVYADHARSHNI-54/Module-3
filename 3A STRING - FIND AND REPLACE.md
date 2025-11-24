@@ -23,8 +23,14 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ### PROGRAM
 
 ```
+def replacestr(s,d):
+    a=input()
+    f=s.replace(d,a)
+    print("The old string is {}\nthe new string is {}".format(s,f))
 ```
 
 ### OUTPUT
+<img width="1262" height="449" alt="image" src="https://github.com/user-attachments/assets/32c4dded-b5ae-4dd6-a233-776db132cbf0" />
 
 ### RESULT
+Thus the python program to identifing and replacing with new word has been implemented and executed successfully.
